@@ -1,0 +1,26 @@
+.app{
+    height:auto;
+}
+.movie-container{
+    color:#ffffff;
+    width:326px;
+    /* height:654px; */
+    margin:30px auto 0;
+   
+   
+}
+.movie-desc{
+    margin-top:10px;
+}
+.movie-name{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:10px;
+}
+#movie-poster{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+    
+}

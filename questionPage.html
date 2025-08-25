@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>PopChoiceQuestionPage</title>
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/questionPage.css">
+</head>
+<body>
+         <div class="app">
+         <header>
+            <img src="./assets/PopChoice Icon.png" alt="PopChoice-img" id="logo-img">
+            <h1 id="heading" class="count">1</h1>
+            </header>
+            <main>
+                <div class="container">
+                <div class="question-box">
+               <div class="question" id="q-1">Whats your favourite movie and why?</div>
+                <!-- <input type="input" id="fav-movie" name="fav-movie" placeholder="The Shawshank RedemptionBecause it taught me to never give up hope no matter how hard life gets"> -->
+                 <textarea name="fav-movie" id="fav-movie" placeholder="The Shawshank RedemptionBecause it taught me to never give up hope no matter how hard life gets" required></textarea>
+                
+        
+                    <div class="question">Are you in the mood for something new or a classic?</div>
+                    
+                    <div class="options">
+                        <button class="option" data-value="new">New</button>
+                        <button class="option" data-value="Classic">Classic</button>
+                    </div>
+
+                    <div class="question">What are you in the mood for?</div>
+                    
+                    <div class="options">
+                        <button class="option" data-value="fun">Fun</button>
+                        <button class="option" data-value="serious">Serious</button>
+                        <button class="option" data-value="inspiring">Inspiring</button>
+                        <button class="option" data-value="scary">Scary</button>
+                    </div>
+
+                    <div class="question" id="q-last">Which famous film person would you love to be stranded on an island with and why?</div>
+                     <textarea name="fav-person" id="fav-person" placeholder="Tom Hanks because he is really funny and can do the voice of Woody" required></textarea>
+                </div>
+                   </div>
+
+                <button class="start-btn" id="movie-btn">Next person</button>
+            </main>
+            </div>
+    <script src="./scripts/index.js" type="module"></script>
+</body>
+</html>
