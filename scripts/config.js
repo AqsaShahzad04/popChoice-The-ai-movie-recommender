@@ -1,6 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const TMDB_V4_TOKEN = import.meta.env.VITE_TMDB_V4_TOKEN;
+const TMDB_V4_TOKEN =import.meta.env.VITE_TMDB_V4_TOKEN;
 const geminiKey = import.meta.env.VITE_GEMINI_API_KEY;
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseKey = import.meta.env.VITE_SUPABASE_API_KEY;
